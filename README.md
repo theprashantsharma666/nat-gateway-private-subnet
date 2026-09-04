@@ -140,23 +140,37 @@ The project successfully demonstrates that a private EC2 instance can:
 ```text
 nat-gateway-private-subnet/
 │
+├── Architecture Diagram
+|   └── architecture-diagram.png
+|
+├── Presentation
+|   └── AWS Project Presentation.pptx
+|
+├── Synopsis
+|   └── AWS Project Synopsis.pdf
+|
 ├── README.md
-├── docs/
-│   └── NAT_Gateway_Project_Synopsis.pdf
-│
-├── architecture/
-│   └── architecture-diagram.png
 │
 ├── screenshots/
 │   ├── vpc.png
-│   ├── subnets.png
-│   ├── route-tables.png
+|   ├── public-subnet.png
+|   ├── private-subnet.png
+|   ├── internet-gateway.png
+|   ├── public-route-table.png
+|   ├── private-route-table.png
+|   ├── public-ip.png
+│   ├── elastic-ip.png
 │   ├── nat-gateway.png
-│   ├── ec2-instances.png
-│   ├── security-groups.png
-│   └── testing.png
+│   ├── private-ec2.png
+│   ├── public-ec2.png
+│   ├── public-ec2-connect.png
+|   ├── ping-google.png
+|   ├── update-packages.png
+|   ├── install-packages.png
+|   ├── blocked-ssh.png
 │
 └── LICENSE
+└── README.md
 ```
 
 ## 👥 Team
